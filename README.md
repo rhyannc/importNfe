@@ -102,7 +102,7 @@ require __DIR__ . "/../src/ImportNfe.php";
     }
 ```
 
-##### Result
+##### HTML
 
 ````html
 <form name="env" method="post" enctype="multipart/form-data">
