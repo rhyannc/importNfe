@@ -1,0 +1,29 @@
+{
+    "name": "awacode/importnfe",
+    "description": "Importe suas Nfe de maneira facil utilizando o XML",
+    "keywords": [
+        "Import nfe",
+        "upload nfe",
+        "Nfe",
+        "Xml"
+    ],
+    "homepage": "http://www.awatech.com.br",
+    "license": "MIT",
+    "authors": [{
+        "name": "Rhyann Carvalhais",
+        "email": "rhyannc@awatech.com.br",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.2",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-exif": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AwaCode\\ImportNfe\\": "src"
+        }
+    }
+}
+}
