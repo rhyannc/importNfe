@@ -37,7 +37,7 @@ AwaCode é um conjunto de pequenos e otimizados componentes PHP para tarefas com
 ImportNfe está disponível via Composer:
 
 ```bash
-"AwaCode/ImportNfe": "^1.0"
+"awacode/importnfe": "^1.0"
 ```
 
 or run
