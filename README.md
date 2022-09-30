@@ -7,7 +7,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Build](https://img.shields.io/scrutinizer/build/g/rhyannc/ImportNfe.svg?style=flat-square)](https://scrutinizer-ci.com/g/rhyannc/ImportNfe)
 [![Quality Score](https://img.shields.io/scrutinizer/g/rhyannc/ImportNfe.svg?style=flat-square)](https://scrutinizer-ci.com/g/rhyannc/ImportNfe)
-[![Total Downloads](https://img.shields.io/packagist/dt/AwaCode/ImportNfe.svg?style=flat-square)](https://packagist.org/packages/AwaCode/ImportNfe)
+[![Total Downloads](https://img.shields.io/packagist/dt/AwaCode/ImportNfe.svg?style=flat-square)](https://packagist.org/packages/awacode/importnfe)
 
 
 ImportNfe é um componente extremamente compacto e fácil de usar. Você só precisa configurar seu comportamento uma vez pelo contrutor, e depois enviar os aquivos xml para fazer a importação e cadastro no Banco de Dados.
