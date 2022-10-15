@@ -159,16 +159,16 @@ class Xml extends ImportNfe
         $dest_cpf_cnpj = $dest_CNPJ . $dest_CPF;
 
         //ENDERDEST
-        $dest_xLgr =    $xml->NFe->infNFe->dest->enderDest->xLgr;
-        $dest_nro=      $xml->NFe->infNFe->dest->enderDest->nro;
-        $dest_xBairro = $xml->NFe->infNFe->dest->enderDest->xBairro;
-        $dest_cMun =    $xml->NFe->infNFe->dest->enderDest->cMun;
-        $dest_xMun =    $xml->NFe->infNFe->dest->enderDest->xMun;
-        $dest_UF =      $xml->NFe->infNFe->dest->enderDest->UF;
-        $dest_CEP =     $xml->NFe->infNFe->dest->enderDest->CEP;
-        $dest_cPais =   $xml->NFe->infNFe->dest->enderDest->cPais;
-        $dest_xPais =   $xml->NFe->infNFe->dest->enderDest->xPais;
-        $dest_fone =    $xml->NFe->infNFe->dest->enderDest->fone;
+        @$dest_xLgr =    $xml->NFe->infNFe->dest->enderDest->xLgr;
+        @$dest_nro=      $xml->NFe->infNFe->dest->enderDest->nro;
+        @$dest_xBairro = $xml->NFe->infNFe->dest->enderDest->xBairro;
+        @$dest_cMun =    $xml->NFe->infNFe->dest->enderDest->cMun;
+        @$dest_xMun =    $xml->NFe->infNFe->dest->enderDest->xMun;
+        @$dest_UF =      $xml->NFe->infNFe->dest->enderDest->UF;
+        @$dest_CEP =     $xml->NFe->infNFe->dest->enderDest->CEP;
+        @$dest_cPais =   $xml->NFe->infNFe->dest->enderDest->cPais;
+        @$dest_xPais =   $xml->NFe->infNFe->dest->enderDest->xPais;
+        @$dest_fone =    $xml->NFe->infNFe->dest->enderDest->fone;
 
         //TRANSP
         $transp_mod   = $xml->NFe->infNFe->transp->modFrete;
